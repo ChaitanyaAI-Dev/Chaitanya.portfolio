@@ -6,7 +6,6 @@ import Skills from "../components/sections/Skills";
 import Experience from "../components/sections/Experience";
 import FeaturedProject from "../components/sections/FeaturedProject";
 import Projects from "../components/sections/Projects";
-import Demos from "../components/sections/Demos";
 import Resume from "../components/sections/Resume";
 import Contact from "../components/sections/Contact";
 
@@ -20,7 +19,6 @@ export default function Home() {
       <Experience />
       <FeaturedProject />
       <Projects />
-      <Demos />
       <Resume />
       <Contact />
       <Footer />

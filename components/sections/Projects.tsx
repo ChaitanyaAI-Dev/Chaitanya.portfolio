@@ -6,26 +6,32 @@ import { portfolioData } from "../../data/portfolio";
 
 export default function Projects() {
   return (
-    <section id="selected-projects" className="section-fade py-24">
+    <section id="projects" className="section-fade py-24">
       <Container>
         <div className="space-y-12">
           <SectionHeading
             eyebrow="Projects"
-            title="Selected Projects"
-            description="A selection of AI, retrieval, and compliance-oriented systems that extend the core ideas behind my portfolio work."
+            title="AI Systems & Demos"
+            description="Focused systems across RAG, document intelligence, compliance AI, agentic automation, and generative AI workflows."
           />
 
-          <div className="grid gap-6 md:grid-cols-2">
+          <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
             {portfolioData.projects.map((project) => (
               <div
                 key={project.title}
-                className="rounded-[1.75rem] border border-white/10 bg-white/5 p-6 backdrop-blur-sm transition duration-200 hover:-translate-y-1 hover:bg-white/[0.07]"
+                className="group flex h-full flex-col rounded-[1.75rem] border border-white/10 bg-white/5 p-6 backdrop-blur-sm transition duration-200 hover:-translate-y-1 hover:border-white/20 hover:bg-white/[0.075]"
               >
-                <h3 className="text-xl font-semibold text-white">
-                  {project.title}
-                </h3>
+                <div className="flex items-start justify-between gap-4">
+                  <h3 className="text-xl font-semibold text-white">
+                    {project.title}
+                  </h3>
 
-                <p className="mt-4 text-base leading-7 text-white/70">
+                  <span className="shrink-0 rounded-full border border-white/10 bg-black/25 px-3 py-1 text-xs font-medium text-white/55">
+                    {project.status}
+                  </span>
+                </div>
+
+                <p className="mt-4 flex-1 text-base leading-7 text-white/70">
                   {project.description}
                 </p>
 
@@ -50,7 +56,7 @@ export default function Projects() {
 
                   {!project.github && !project.demo ? (
                     <span className="text-sm text-white/50">
-                      Code private — walkthrough on request
+                      Walkthrough available on request
                     </span>
                   ) : null}
                 </div>

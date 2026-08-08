@@ -1,68 +1,49 @@
----
-
 # Chaitanya S. — Applied AI Engineer Portfolio
 
-A modern, recruiter-focused portfolio built with Next.js, TypeScript, and Tailwind CSS to showcase my work in Applied AI, Generative AI, Retrieval-Augmented Generation (RAG), agentic AI, document intelligence, AI platform engineering, and compliance-aware backend systems.
+A modern portfolio built with Next.js, TypeScript, and Tailwind CSS to present my work across Applied AI, Generative AI, Retrieval-Augmented Generation (RAG), agentic AI, document intelligence, AI platform engineering, backend AI services, and compliance-aware systems.
 
-This portfolio is designed to present my profile as an Applied AI Engineer with experience building AI-powered applications for regulated and enterprise-style environments, with a strong focus on practical systems, product thinking, and clean technical execution.
+This portfolio is designed as a broad proof-of-work hub for AI engineering roles. It complements my resume and LinkedIn profile while staying flexible for Applied AI Engineer, Generative AI Engineer, LLM Engineer, RAG Engineer, AI Platform Engineer, AI Backend Engineer, and AI Solutions Engineer opportunities.
 
----
-
-## About This Portfolio
-
-The portfolio highlights my work across:
+## Focus Areas
 
 - Generative AI and LLM applications
-- Retrieval-Augmented Generation (RAG)
-- Document intelligence workflows
-- Semantic retrieval systems
-- Backend engineering with Python and FastAPI
-- Compliance-aware AI systems for regulated domains
+- Retrieval-Augmented Generation (RAG), GraphRAG, vector databases, and semantic retrieval
+- Agentic AI workflows with LangGraph, MCP, tool/function calling, and human-in-the-loop approvals
+- Python/FastAPI backend services for AI-powered products
+- Document intelligence, summarization, structured outputs, and compliance-focused QA
+- AI evaluation, guardrails, auditability, and regulated-domain workflows
 
-It is structured to give recruiters, hiring managers, and collaborators a fast and clear overview of my background, strengths, featured projects, live demos, and resume.
-
----
-
-## Featured Focus Areas
-
-- Generative AI & LLM Applications
-- RAG and Semantic Retrieval
-- Document Intelligence
-- Compliance-Aware AI Systems
-- Backend Engineering
-- Pharmaceutical AI Workflows
-- Agentic AI & AI Platform Engineering
-
----
-
-## Featured Project
+## Featured Platform
 
 ### PharmaAI Platform
 
-A unified AI-powered platform for pharmaceutical, regulatory, and compliance-oriented document workflows.
+A modular AI platform for regulatory document intelligence, summarization, compliance-focused question answering, and citation-backed generation.
 
-It combines:
+Core modules include:
 
-- Grounded regulatory question answering
-- Structured document summarization
-- Compliance-focused document guidance
-- Modular architecture and reusable workflow components
+- Regulatory RAG and citation-backed retrieval
+- Document summarization
+- Compliance QA for SOP, CAPA, deviation, and quality workflows
+- Evaluation and governance using groundedness checks, retrieval precision, guardrails, audit logging, RBAC, and validation review controls
 
----
+## Additional Systems & Demos
+
+- Agentic AI Orchestration Platform
+- PharmaRAG
+- PharmaSummarizer
+- CompliBot
+- HR AI Content System
 
 ## Portfolio Sections
 
 - Hero / Professional Introduction
-- About Me
+- About
 - Skills & Tech Stack
 - Professional Experience
-- Featured Project
-- Selected Projects
-- Live Demos
+- Featured Platform
+- AI Systems & Demos
 - Resume
 - Contact
-
----
 
 ## Technology Stack
 
@@ -73,12 +54,10 @@ It combines:
 - Responsive UI architecture
 - Vercel-ready deployment structure
 
----
-
 ## Project Structure
 
 ```text
-portfolio/
+Chaitanya.portfolio-main/
 ├── app/
 ├── components/
 ├── data/
@@ -88,15 +67,9 @@ portfolio/
 └── ...
 ```
 
+## Links
 
----
-
-## 🔗 Links & Attribution
-
-### 🌐 Live Demo
-[![Live Demo](https://img.shields.io/badge/Demo-HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/ChaitanyaAI-Dev)
-
-### 👤 Author
-**Chaitanya S.**
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ChaitanyaAI-Dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chaitanya-s-8a1827263)
+- Portfolio: https://chaitanyaai-dev-portfolio.vercel.app/
+- GitHub: https://github.com/ChaitanyaAI-Dev
+- LinkedIn: https://www.linkedin.com/in/chaitanyaai-dev/
+- Hugging Face: https://huggingface.co/ChaitanyaAI-Dev

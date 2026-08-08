@@ -10,7 +10,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Chaitanya S. | Applied AI Engineer",
   description:
-    "Portfolio of Chaitanya S., an Applied AI Engineer building production-grade RAG, agentic AI, document intelligence, and AI platform systems for regulated and enterprise environments.",
+    "Portfolio of Chaitanya S., an Applied AI Engineer building LLM applications, RAG systems, agentic AI workflows, backend AI services, and document-intelligence platforms.",
 };
 
 export default function RootLayout({

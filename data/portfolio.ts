@@ -2,49 +2,73 @@ export const portfolioData = {
   name: "Chaitanya S.",
   title: "Applied AI Engineer",
   tagline:
-    "Applied AI Engineer building production-grade RAG, agentic AI, and AI platform systems.",
+    "Applied AI Engineer building LLM applications, RAG systems, agentic workflows, and AI platform infrastructure.",
   subtitle:
-    "I build LLM applications, retrieval-augmented generation systems, multi-agent workflows, and document-intelligence platforms with Python, FastAPI, LangGraph, LangChain, LlamaIndex, vector databases, and compliance-aware engineering practices.",
+    "I design and build AI-powered software systems with Python, FastAPI, LangGraph, LangChain, LlamaIndex, vector databases, guardrails, and evaluation workflows — focused on grounded, auditable, document-intelligence applications.",
   status:
-    "Open to full-time opportunities in Applied AI, Generative AI, LLM Engineering, RAG, Agentic AI, AI Platform Engineering, and AI Backend Engineering.",
+    "Open to Applied AI, Generative AI, LLM Engineering, RAG, Agentic AI, AI Platform Engineering, AI Backend Engineering, and AI Solutions Engineering roles.",
 
   contact: {
     email: "chaitanya.aicareers@gmail.com",
     github: "https://github.com/ChaitanyaAI-Dev/",
-    linkedin: "https://www.linkedin.com/in/chaitanya-s-8a1827263/",
+    linkedin: "https://www.linkedin.com/in/chaitanyaai-dev/",
     huggingface: "https://huggingface.co/ChaitanyaAI-Dev",
   },
 
-  heroBadges: ["Applied AI", "RAG", "Agentic AI", "AI Platform Engineering"],
+  heroBadges: [
+    "Applied AI",
+    "LLM Applications",
+    "RAG",
+    "Agentic AI",
+    "AI Platform Engineering",
+  ],
 
   about: {
-    heading: "About Me",
+    heading: "Building practical AI systems across retrieval, agents, and backend platforms.",
     paragraphs: [
-      "I'm an Applied AI Engineer focused on production-grade LLM applications, Retrieval-Augmented Generation (RAG), GraphRAG, agentic AI systems, and document-intelligence platforms.",
-      "My work combines AI engineering with backend development, retrieval architecture, evaluation, guardrails, and human-in-the-loop workflows for secure and auditable AI systems.",
-      "I also bring software-engineering experience in FDA-regulated pharmaceutical environments, including 21 CFR Part 11, GxP, ALCOA+, auditability, and validation-oriented system design.",
+      "I am an Applied AI Engineer focused on production-grade LLM applications, Retrieval-Augmented Generation (RAG), agentic AI workflows, document intelligence, and AI platform engineering.",
+      "My work combines LLM applications, backend APIs, retrieval pipelines, vector databases, structured outputs, evaluation, guardrails, and human-in-the-loop workflows to turn AI capabilities into usable software systems.",
+      "I bring software-engineering experience in FDA-regulated pharmaceutical environments, including 21 CFR Part 11, GxP, ALCOA+, auditability, and validation-oriented system design — useful for AI systems that need to be grounded, secure, and reviewable.",
     ],
     highlights: [
-      "Built RAG and document-intelligence workflows for regulated pharmaceutical content",
-      "Shipped LLM-powered summarization, entity extraction, and retrieval over 50,000+ pages of compliance documentation",
-      "Designed agentic AI workflows with LangGraph, MCP, tool calling, HITL approvals, and sandboxed execution",
-      "Strong foundation across Python, FastAPI, PostgreSQL, vector databases, Docker, AWS, and compliance-aware systems",
+      "Applied AI systems spanning RAG, document intelligence, summarization, compliance QA, and agentic workflows",
+      "LLM-powered summarization, entity extraction, and retrieval over 50,000+ pages of compliance documentation",
+      "Agentic AI architecture with LangGraph, MCP, tool calling, HITL approvals, sandboxed execution, and persistent state",
+      "Backend AI foundation across Python, FastAPI, PostgreSQL, vector databases, Docker, AWS, and compliance-aware workflows",
     ],
   },
 
   skills: [
     {
-      title: "Generative AI & LLMs",
+      title: "AI / LLM Engineering",
       items: [
+        "Generative AI",
+        "LLM Applications",
         "RAG Architecture",
         "LangChain",
         "LlamaIndex",
         "OpenAI API",
         "GPT-4/4o",
-        "Hugging Face Transformers",
+        "Hugging Face",
         "Prompt Engineering",
         "Structured Outputs",
         "Hallucination Mitigation",
+      ],
+    },
+    {
+      title: "Retrieval & Document Intelligence",
+      items: [
+        "Embeddings",
+        "Semantic Search",
+        "Semantic Chunking",
+        "Hybrid Search",
+        "BM25",
+        "GraphRAG",
+        "Vector Databases",
+        "Metadata Filtering",
+        "Reranking",
+        "Citation-Grounded Generation",
+        "Document Summarization",
       ],
     },
     {
@@ -53,43 +77,16 @@ export const portfolioData = {
         "AI Agents",
         "LangGraph",
         "Multi-Agent Systems",
-        "MCP (Model Context Protocol)",
+        "MCP",
         "Tool / Function Calling",
         "Task Routing",
         "Human-in-the-Loop Approvals",
         "Sandboxed Execution",
+        "Agent State Persistence",
       ],
     },
     {
-      title: "Retrieval & NLP",
-      items: [
-        "Embeddings",
-        "Semantic Search",
-        "Semantic Chunking",
-        "Hybrid Search",
-        "BM25",
-        "GraphRAG",
-        "Dense Vector Retrieval",
-        "Metadata Filtering",
-        "Reranking",
-        "Citation-Grounded Generation",
-      ],
-    },
-    {
-      title: "AI Evaluation & Safety",
-      items: [
-        "Phoenix",
-        "LangSmith",
-        "Groundedness Evaluation",
-        "Retrieval Precision",
-        "NeMo Guardrails",
-        "Llama Guard",
-        "Prompt-Injection Defense",
-        "Audit Logging",
-      ],
-    },
-    {
-      title: "Backend & Infrastructure",
+      title: "Backend & Platform Engineering",
       items: [
         "Python",
         "SQL",
@@ -97,9 +94,6 @@ export const portfolioData = {
         "REST APIs",
         "Async Architecture",
         "Pydantic",
-        "Streamlit",
-        "Pandas",
-        "NumPy",
         "PostgreSQL",
         "ChromaDB",
         "Pinecone",
@@ -111,9 +105,23 @@ export const portfolioData = {
       ],
     },
     {
-      title: "Security & Compliance",
+      title: "Evaluation, Safety & Governance",
       items: [
+        "Phoenix",
+        "LangSmith",
+        "Groundedness Evaluation",
+        "Retrieval Precision",
+        "NeMo Guardrails",
+        "Llama Guard",
+        "Prompt-Injection Defense",
         "RBAC",
+        "Audit Logging",
+        "Validation Review Controls",
+      ],
+    },
+    {
+      title: "Regulated AI & Compliance",
+      items: [
         "FDA 21 CFR Part 11",
         "GxP",
         "ALCOA+",
@@ -121,6 +129,7 @@ export const portfolioData = {
         "SOP",
         "CAPA",
         "Deviation Workflows",
+        "Quality Systems",
         "Validation-Oriented Systems",
       ],
     },
@@ -128,7 +137,7 @@ export const portfolioData = {
 
   experience: [
     {
-      role: "Founder & Lead AI Engineer / Architect",
+      role: "Applied AI Engineer",
       company: "SPACTR AI Labs LLC",
       location: "Milwaukee, WI (Remote)",
       dates: "June 2026 – Present",
@@ -165,8 +174,8 @@ export const portfolioData = {
       techStack:
         "Python, FastAPI, OpenAI API, LangChain, Pinecone, PostgreSQL, Docker, AWS EC2/S3, REST APIs, CI/CD",
       bullets: [
-        "Shipped production LLM-powered summarization, entity extraction, and knowledge-retrieval features for enterprise regulatory documentation, processing 50,000+ pages of compliance text.",
-        "Built retrieval-based AI capabilities into enterprise backend services through RESTful FastAPI microservices, maintaining sub-300 ms API response latency under high-volume query loads.",
+        "Shipped LLM-powered summarization, entity extraction, and knowledge-retrieval features for enterprise regulatory documentation, processing 50,000+ pages of compliance text.",
+        "Built retrieval-based AI capabilities into backend services through RESTful FastAPI microservices, maintaining sub-300 ms API response latency under high-volume query loads.",
         "Designed and optimized vector-search indexing pipelines using Pinecone and PostgreSQL, including custom chunking, embedding workflows, and metadata filtering to improve retrieval accuracy.",
         "Implemented prompt-engineering patterns, Pydantic-based structured JSON outputs, and validation guardrails to reduce hallucination risk across automated compliance workflows.",
         "Built preprocessing and validation workflows that converted unstructured regulatory content into retrieval-ready chunks and Pydantic-validated structured outputs for downstream AI services.",
@@ -193,13 +202,13 @@ export const portfolioData = {
   featuredProject: {
     title: "PharmaAI Platform",
     subtitle:
-      "Regulatory, Summarization, and Compliance Intelligence System",
+      "Regulatory Document Intelligence, Summarization & Compliance QA Platform",
     summary:
-      "A modular pharmaceutical AI platform combining regulatory knowledge retrieval, document summarization, compliance-focused question answering, and citation-backed generation in a single architecture.",
+      "A modular AI platform combining regulatory retrieval, document summarization, compliance-focused question answering, and citation-backed generation for regulated document workflows.",
     problem:
-      "Pharmaceutical and regulated teams work across fragmented guidance files, SOPs, CAPA records, deviation documents, and controlled PDFs. Finding reliable, source-backed answers is slow when information is spread across many document types and workflows.",
+      "Regulatory, quality, and compliance teams work across fragmented guidance documents, SOPs, CAPA records, deviation documents, and controlled PDFs. Finding reliable, source-backed answers is slow when information is spread across many document types and review workflows.",
     solution:
-      "PharmaAI Platform brings ingestion, semantic chunking, embeddings, vector retrieval, hybrid search, reranking, GraphRAG, summarization, structured outputs, and compliance assistance into one modular system designed for regulated document workflows.",
+      "PharmaAI unifies ingestion, semantic chunking, embeddings, vector retrieval, hybrid search, reranking, GraphRAG, summarization, structured outputs, guardrails, evaluation, and citation-backed generation into one modular architecture for regulated document intelligence.",
     techStack: [
       "Python",
       "FastAPI",
@@ -217,7 +226,7 @@ export const portfolioData = {
     ],
     features: [
       {
-        title: "Regulatory Retrieval",
+        title: "Regulatory RAG",
         description:
           "End-to-end RAG pipeline covering ingestion, semantic chunking, embeddings, vector indexing, reranking, and citation-backed generation, extended with hybrid search and GraphRAG for relationship-aware retrieval.",
       },
@@ -227,9 +236,9 @@ export const portfolioData = {
           "Summarization workflows that support rapid understanding of FDA guidance documents, regulatory PDFs, and controlled pharmaceutical content.",
       },
       {
-        title: "Compliance Assistance",
+        title: "Compliance QA",
         description:
-          "Compliance-focused assistant for SOP, CAPA, deviation, regulatory, and quality workflows with structured outputs, evidence-backed responses, and inline citations.",
+          "Assistant workflows for SOP, CAPA, deviation, regulatory, and quality-process use cases with structured outputs, evidence-backed responses, and inline citations.",
       },
       {
         title: "Evaluation & Governance",
@@ -244,68 +253,51 @@ export const portfolioData = {
   projects: [
     {
       title: "Agentic AI Orchestration Platform",
+      status: "In progress",
       description:
-        "Local-first multi-agent automation platform built on LangGraph with deterministic state-machine orchestration, MCP tool integration, sandboxed execution, and human-in-the-loop approval checkpoints.",
-      tags: ["Agentic AI", "LangGraph", "MCP", "Human-in-the-Loop"],
+        "Local-first multi-agent automation platform built with LangGraph, deterministic workflow orchestration, MCP tool integration, human approval gates, sandboxed execution, and PostgreSQL-backed state persistence.",
+      tags: ["Agentic AI", "LangGraph", "MCP", "HITL", "PostgreSQL"],
       github: "",
       demo: "",
     },
     {
-      title: "PharmaAI Platform",
-      description:
-        "Regulatory, summarization, and compliance intelligence platform combining RAG, hybrid search, GraphRAG, structured outputs, citations, guardrails, and evaluation workflows.",
-      tags: ["RAG", "GraphRAG", "Compliance AI", "Document Intelligence"],
-      github: "https://github.com/ChaitanyaAI-Dev/pharma-ai-platform",
-      demo: "https://huggingface.co/spaces/ChaitanyaAI-Dev/pharma-ai-platform",
-    },
-    {
       title: "PharmaRAG",
+      status: "Demo",
       description:
-        "RAG-based regulatory retrieval system for grounded, citation-backed question answering over FDA guidance documents and regulatory PDFs.",
-      tags: ["RAG", "Semantic Retrieval", "Regulatory AI"],
+        "Focused regulatory RAG system for citation-backed question answering over FDA guidance documents and regulatory PDFs using chunking, embeddings, semantic retrieval, and grounded generation.",
+      tags: ["RAG", "Semantic Search", "Vector DB", "Regulatory AI"],
       github: "https://github.com/ChaitanyaAI-Dev/pharmarag-mvp",
       demo: "https://huggingface.co/spaces/ChaitanyaAI-Dev/pharmarag-mvp",
     },
     {
       title: "PharmaSummarizer",
+      status: "Demo",
       description:
-        "Document-intelligence workflow that generates summaries and surfaces key insights from pharmaceutical and regulatory PDFs.",
-      tags: ["Summarization", "Document Intelligence", "LLMs"],
+        "LLM-powered document-intelligence workflow that summarizes pharmaceutical and regulatory PDFs, surfaces key highlights, and supports faster review of controlled documents.",
+      tags: ["Summarization", "LLMs", "Document Intelligence", "FastAPI"],
       github: "https://github.com/ChaitanyaAI-Dev/pharmasummarizer-mvp",
       demo: "https://huggingface.co/spaces/ChaitanyaAI-Dev/pharmasummarizer-mvp",
     },
     {
       title: "CompliBot",
+      status: "Demo",
       description:
-        "Compliance-focused assistant designed for SOP understanding, CAPA procedures, deviation handling, and quality-process interpretation using structured outputs and grounded responses.",
-      tags: ["Compliance AI", "SOPs", "Quality Systems"],
+        "Compliance-focused assistant for SOP understanding, CAPA procedures, deviation handling, and quality-process interpretation with structured, grounded responses.",
+      tags: ["Compliance AI", "SOP", "CAPA", "Structured Outputs"],
       github: "https://github.com/ChaitanyaAI-Dev/complibot-mvp",
       demo: "https://huggingface.co/spaces/ChaitanyaAI-Dev/complibot-mvp",
     },
     {
-      title: "Backend AI Workflows",
+      title: "HR AI Content System",
+      status: "Demo",
       description:
-        "Backend-oriented AI services and APIs built with Python and FastAPI to support retrieval workflows, document processing, structured outputs, and production-style integrations.",
-      tags: ["Python", "FastAPI", "Backend AI"],
-      github: "https://github.com/ChaitanyaAI-Dev/",
-      demo: "",
+        "AI-ready HR content workflow for transforming unstructured HR material into structured, searchable, governed knowledge assets with retrieval, metadata, and evaluation support.",
+      tags: ["Generative AI", "Content Automation", "Retrieval", "Governance"],
+      github: "https://github.com/ChaitanyaAI-Dev/hr-ai-content-system",
+      demo: "https://huggingface.co/spaces/ChaitanyaAI-Dev/hr-ai-content-system",
     },
   ],
 
-  demos: [
-    {
-      title: "PharmaAI Platform — Live",
-      description:
-        "Try the live RAG, summarization, and compliance assistant running on Hugging Face Spaces.",
-      link: "https://huggingface.co/spaces/ChaitanyaAI-Dev/pharma-ai-platform",
-    },
-    {
-      title: "More Prototypes",
-      description:
-        "Browse my Hugging Face Spaces, model demos, and works in progress.",
-      link: "https://huggingface.co/ChaitanyaAI-Dev",
-    },
-  ],
 
   resume: {
     text: "Download my latest resume for a detailed view of my experience across Applied AI, Generative AI, RAG systems, agentic workflows, AI platform engineering, backend engineering, document intelligence, and regulated pharmaceutical software.",
@@ -314,13 +306,13 @@ export const portfolioData = {
   },
 
   contactSection: {
-    heading: "Contact",
-    text: "I'm currently open to full-time opportunities in Applied AI, Generative AI, LLM Engineering, RAG, Agentic AI, AI Platform Engineering, and AI Backend Engineering.",
+    heading: "Let’s Connect",
+    text: "Open to Applied AI Engineer, Generative AI Engineer, LLM Engineer, RAG Engineer, AI Platform Engineer, AI Backend Engineer, and AI Solutions Engineer roles.",
     closing:
-      "Interested in collaborating, hiring, or discussing AI systems for regulated workflows? Let's connect.",
+      "Interested in AI systems, RAG platforms, agentic workflows, or backend AI products? Connect with me on LinkedIn or explore the demos and repositories above.",
   },
 
   footer: {
-    text: "Building production-grade RAG, agentic AI, and AI platform systems for regulated and knowledge-heavy environments.",
+    text: "Building practical AI systems across LLM applications, RAG, agentic workflows, backend services, and document intelligence.",
   },
 };

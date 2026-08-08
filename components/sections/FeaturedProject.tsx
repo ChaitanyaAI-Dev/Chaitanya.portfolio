@@ -8,7 +8,7 @@ export default function FeaturedProject() {
   const project = portfolioData.featuredProject;
 
   return (
-    <section id="projects" className="section-fade py-24">
+    <section id="featured-platform" className="section-fade py-24">
       <Container>
         <div className="space-y-10">
           <SectionHeading
