@@ -41,7 +41,7 @@ export default function Experience() {
 
                 {"groups" in role ? (
                   <div className="mt-7 space-y-7">
-                    {role.groups??.map((group) => (
+                    {role.groups?.map((group) => (
                       <div key={group.title}>
                         <h4 className="text-lg font-semibold text-white">
                           {group.title}
