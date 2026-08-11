@@ -302,7 +302,7 @@ export const portfolioData = {
   resume: {
     text: "Download my latest resume for a detailed view of my experience across Applied AI, Generative AI, RAG systems, agentic workflows, AI platform engineering, backend engineering, document intelligence, and regulated pharmaceutical software.",
     buttonLabel: "Download Resume",
-    filePath: "/Chaitanya_S_Applied_AI_Engineer_Resume.pdf",
+    filePath: "/Chaitanya_S_AI_Engineer_Resume.pdf",
   },
 
   contactSection: {
