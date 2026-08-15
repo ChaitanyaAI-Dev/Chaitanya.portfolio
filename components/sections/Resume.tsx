@@ -4,6 +4,7 @@ import SectionHeading from "../ui/SectionHeading";
 import { portfolioData } from "../../data/portfolio";
 
 export default function Resume() {
+  return null;
   return (
     <section id="resume" className="py-28">
       <Container>
