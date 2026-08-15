@@ -35,7 +35,7 @@ export default function Footer() {
             /* href={portfolioData.resume.filePath} */
             className="transition hover:text-white"
           >
-            Resume
+            {/* Resume */}
           </a>
           <a
             href={`mailto:${portfolioData.contact.email}`}
