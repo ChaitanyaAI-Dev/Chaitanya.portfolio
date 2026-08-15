@@ -37,9 +37,9 @@ export default function Navbar() {
         </nav>
 
         <div className="hidden sm:block">
-          <Button href={portfolioData.resume.filePath} variant="primary">
+          {/* <Button href={portfolioData.resume.filePath} variant="primary">
             {portfolioData.resume.buttonLabel}
-          </Button>
+          </Button> */}
         </div>
       </Container>
 

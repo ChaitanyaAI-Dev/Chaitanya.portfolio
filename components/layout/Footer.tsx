@@ -32,7 +32,7 @@ export default function Footer() {
             LinkedIn
           </a>
           <a
-            href={portfolioData.resume.filePath}
+            /* href={portfolioData.resume.filePath} */
             className="transition hover:text-white"
           >
             Resume
